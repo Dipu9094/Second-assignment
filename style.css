@@ -218,6 +218,27 @@ footer{
     margin-left: 123.94px;
 }
 
+
+/* hover part  */
+
+.banner-img:hover{
+transform: translate(-20px, 25px) rotate(20deg);
+
+}
+.banner-img{
+    transition: transform 2s ease-in-out;
+}
+.player-box:hover #player-img{
+    transform: scale(.5) rotate(15deg);
+}
+
+#player-img{
+    transition: transform 2s ease-in-out;
+}
+
+
+
+
 /* ************************************
 RESPONSIVE DESIGN****************** **/
 
@@ -335,6 +356,24 @@ body{
     margin-left: 80px;
 }
 
+
+/* hover part  */
+
+.banner-img:hover{
+    transform: translate(-10px, 12px) rotate(15deg);
+    
+    }
+    .banner-img{
+        transition: transform 2s ease-in-out;
+    }
+    .player-box:hover #player-img{
+        transform: scale(.7) rotate(10deg);
+    }
+    
+    #player-img{
+        transition: transform 2s ease-in-out;
+    }
+
 }
 
 
@@ -348,6 +387,8 @@ body{
     display: block;
     color: white;
 }
+
+
 .navbar{
    width: 80%;
    margin-left: 55px;
@@ -410,4 +451,21 @@ body{
     margin: 50px auto;
     margin-left: 105px;
 }
+
+/* hover part  */
+
+.banner-img:hover{
+    transform: translate(-20px, 25px) rotate(20deg);
+    
+    }
+    .banner-img{
+        transition: transform 2s ease-in-out;
+    }
+    .player-box:hover #player-img{
+        transform: scale(.5) rotate(15deg);
+    }
+    
+    #player-img{
+        transition: transform 2s ease-in-out;
+    }
 }  
