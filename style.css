@@ -21,6 +21,9 @@ body{
 .bar{
     display: none;
 }
+span{
+    color:#faa307 ;
+}
 .navbar{
     width: 1160px;
     height: 44px;   
@@ -292,7 +295,9 @@ body{
 }
 #best-player{
    width: 250px;
-   margin-left: 46px;
+   margin: auto;
+   margin-bottom: 10px;
+   margin-top: 10px;
 }
 
 .banner-right img{
