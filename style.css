@@ -1,14 +1,14 @@
 /* <!-- google fonts   --> */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
-}
-body{
     height: 3750px;
     margin: 0px auto;
     width: 1440px;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 .main-header{
     height: 677px;   
@@ -205,7 +205,7 @@ footer{
     width: 483.87px;
     height: 213px;
     margin-left: 475px;
-    margin-top: 158px;
+    margin-top: 108px;
     margin-bottom: 63px;
 }
 .foot-img img{
